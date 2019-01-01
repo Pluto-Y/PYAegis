@@ -8,8 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		5DC750DB21E213ED0012B16C /* PYAegis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC750D121E213ED0012B16C /* PYAegis.framework */; };
-		5DC750E021E213ED0012B16C /* PYAegisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC750DF21E213ED0012B16C /* PYAegisTests.m */; };
 		5DC750E221E213ED0012B16C /* PYAegis.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC750D421E213ED0012B16C /* PYAegis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DC750ED21E213ED0012B16C /* NSObject+MethodSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC750EB21E213ED0012B16C /* NSObject+MethodSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DC750EE21E213ED0012B16C /* NSObject+MethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC750EC21E213ED0012B16C /* NSObject+MethodSwizzling.m */; };
+		5DC750F121E213ED0012B16C /* PYADefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC750F021E213ED0012B16C /* PYADefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DC750F421E213ED0012B16C /* PYACrashType.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC750F221E213ED0012B16C /* PYACrashType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DC750F521E213ED0012B16C /* PYACrashType.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC750F321E213ED0012B16C /* PYACrashType.m */; };
+		5DC750F721E213ED0012B16C /* MethodSwizzlingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC750F621E213ED0012B16C /* MethodSwizzlingTests.m */; };
+		5DC750FA21E213ED0012B16C /* NSTimer+Weak.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC750F821E213ED0012B16C /* NSTimer+Weak.m */; };
+		5DC750FB21E213ED0012B16C /* NSTimer+Weak.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC750F921E213ED0012B16C /* NSTimer+Weak.h */; };
+		5DC750FD21E213ED0012B16C /* NSTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC750FC21E213ED0012B16C /* NSTimerTests.m */; };
+		5DC7510021E213ED0012B16C /* NSObject+UnregnizedSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC750FE21E213ED0012B16C /* NSObject+UnregnizedSelector.m */; };
+		5DC7510121E213ED0012B16C /* NSObject+UnregnizedSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC750FF21E213ED0012B16C /* NSObject+UnregnizedSelector.h */; };
+		5DC7510321E213ED0012B16C /* UnrecognizedSelectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7510221E213ED0012B16C /* UnrecognizedSelectTests.m */; };
+		5DC7510621E213ED0012B16C /* NSObject+KVOCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7510421E213ED0012B16C /* NSObject+KVOCrash.m */; };
+		5DC7510721E213ED0012B16C /* NSObject+KVOCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7510521E213ED0012B16C /* NSObject+KVOCrash.h */; };
+		5DC7510921E213ED0012B16C /* KVOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7510821E213ED0012B16C /* KVOTests.m */; };
+		BF2E68923FEBA7D64A9ED0E7 /* libPods-PYAegisTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0777F878E140A2543EE9C76C /* libPods-PYAegisTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +38,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0777F878E140A2543EE9C76C /* libPods-PYAegisTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PYAegisTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D20D1F10519D43B0C3D2884 /* Pods-PYAegisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYAegisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PYAegisTests/Pods-PYAegisTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DC750D121E213ED0012B16C /* PYAegis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PYAegis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DC750D421E213ED0012B16C /* PYAegis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYAegis.h; sourceTree = "<group>"; };
 		5DC750D521E213ED0012B16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DC750DA21E213ED0012B16C /* PYAegisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYAegisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DC750DF21E213ED0012B16C /* PYAegisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYAegisTests.m; sourceTree = "<group>"; };
 		5DC750E121E213ED0012B16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DC750EB21E213ED0012B16C /* NSObject+MethodSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MethodSwizzling.h"; sourceTree = "<group>"; };
+		5DC750EC21E213ED0012B16C /* NSObject+MethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MethodSwizzling.m"; sourceTree = "<group>"; };
+		5DC750F021E213ED0012B16C /* PYADefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYADefine.h; sourceTree = "<group>"; };
+		5DC750F221E213ED0012B16C /* PYACrashType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYACrashType.h; sourceTree = "<group>"; };
+		5DC750F321E213ED0012B16C /* PYACrashType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYACrashType.m; sourceTree = "<group>"; };
+		5DC750F621E213ED0012B16C /* MethodSwizzlingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodSwizzlingTests.m; sourceTree = "<group>"; };
+		5DC750F821E213ED0012B16C /* NSTimer+Weak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Weak.m"; sourceTree = "<group>"; };
+		5DC750F921E213ED0012B16C /* NSTimer+Weak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Weak.h"; sourceTree = "<group>"; };
+		5DC750FC21E213ED0012B16C /* NSTimerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTimerTests.m; sourceTree = "<group>"; };
+		5DC750FE21E213ED0012B16C /* NSObject+UnregnizedSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+UnregnizedSelector.m"; sourceTree = "<group>"; };
+		5DC750FF21E213ED0012B16C /* NSObject+UnregnizedSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+UnregnizedSelector.h"; sourceTree = "<group>"; };
+		5DC7510221E213ED0012B16C /* UnrecognizedSelectTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnrecognizedSelectTests.m; sourceTree = "<group>"; };
+		5DC7510421E213ED0012B16C /* NSObject+KVOCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVOCrash.m"; sourceTree = "<group>"; };
+		5DC7510521E213ED0012B16C /* NSObject+KVOCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVOCrash.h"; sourceTree = "<group>"; };
+		5DC7510821E213ED0012B16C /* KVOTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOTests.m; sourceTree = "<group>"; };
+		A045FDA387567CFE15D2DC64 /* Pods-PYAegisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYAegisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PYAegisTests/Pods-PYAegisTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,18 +76,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DC750DB21E213ED0012B16C /* PYAegis.framework in Frameworks */,
+				BF2E68923FEBA7D64A9ED0E7 /* libPods-PYAegisTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55A304B877F67EAEED18828A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D20D1F10519D43B0C3D2884 /* Pods-PYAegisTests.debug.xcconfig */,
+				A045FDA387567CFE15D2DC64 /* Pods-PYAegisTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5DC750C721E213ED0012B16C = {
 			isa = PBXGroup;
 			children = (
 				5DC750D321E213ED0012B16C /* PYAegis */,
 				5DC750DE21E213ED0012B16C /* PYAegisTests */,
 				5DC750D221E213ED0012B16C /* Products */,
+				55A304B877F67EAEED18828A /* Pods */,
+				B8FE787AD476D3167861FD45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,8 +115,17 @@
 		5DC750D321E213ED0012B16C /* PYAegis */ = {
 			isa = PBXGroup;
 			children = (
-				5DC750D421E213ED0012B16C /* PYAegis.h */,
 				5DC750D521E213ED0012B16C /* Info.plist */,
+				5DC7510521E213ED0012B16C /* NSObject+KVOCrash.h */,
+				5DC7510421E213ED0012B16C /* NSObject+KVOCrash.m */,
+				5DC750EB21E213ED0012B16C /* NSObject+MethodSwizzling.h */,
+				5DC750EC21E213ED0012B16C /* NSObject+MethodSwizzling.m */,
+				5DC750FF21E213ED0012B16C /* NSObject+UnregnizedSelector.h */,
+				5DC750FE21E213ED0012B16C /* NSObject+UnregnizedSelector.m */,
+				5DC750F921E213ED0012B16C /* NSTimer+Weak.h */,
+				5DC750F821E213ED0012B16C /* NSTimer+Weak.m */,
+				5DC750D421E213ED0012B16C /* PYAegis.h */,
+				5DC750EF21E213ED0012B16C /* Utils */,
 			);
 			path = PYAegis;
 			sourceTree = "<group>";
@@ -80,10 +133,31 @@
 		5DC750DE21E213ED0012B16C /* PYAegisTests */ = {
 			isa = PBXGroup;
 			children = (
-				5DC750DF21E213ED0012B16C /* PYAegisTests.m */,
 				5DC750E121E213ED0012B16C /* Info.plist */,
+				5DC7510821E213ED0012B16C /* KVOTests.m */,
+				5DC750F621E213ED0012B16C /* MethodSwizzlingTests.m */,
+				5DC750FC21E213ED0012B16C /* NSTimerTests.m */,
+				5DC7510221E213ED0012B16C /* UnrecognizedSelectTests.m */,
 			);
 			path = PYAegisTests;
+			sourceTree = "<group>";
+		};
+		5DC750EF21E213ED0012B16C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5DC750F221E213ED0012B16C /* PYACrashType.h */,
+				5DC750F321E213ED0012B16C /* PYACrashType.m */,
+				5DC750F021E213ED0012B16C /* PYADefine.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B8FE787AD476D3167861FD45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0777F878E140A2543EE9C76C /* libPods-PYAegisTests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,7 +167,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DC750F121E213ED0012B16C /* PYADefine.h in Headers */,
 				5DC750E221E213ED0012B16C /* PYAegis.h in Headers */,
+				5DC750ED21E213ED0012B16C /* NSObject+MethodSwizzling.h in Headers */,
+				5DC750FB21E213ED0012B16C /* NSTimer+Weak.h in Headers */,
+				5DC7510121E213ED0012B16C /* NSObject+UnregnizedSelector.h in Headers */,
+				5DC750F421E213ED0012B16C /* PYACrashType.h in Headers */,
+				5DC7510721E213ED0012B16C /* NSObject+KVOCrash.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DC750E821E213ED0012B16C /* Build configuration list for PBXNativeTarget "PYAegisTests" */;
 			buildPhases = (
+				E4053D6B487B0456BA39A9B3 /* [CP] Check Pods Manifest.lock */,
 				5DC750D621E213ED0012B16C /* Sources */,
 				5DC750D721E213ED0012B16C /* Frameworks */,
 				5DC750D821E213ED0012B16C /* Resources */,
@@ -188,11 +269,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E4053D6B487B0456BA39A9B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PYAegisTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5DC750CD21E213ED0012B16C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DC7510621E213ED0012B16C /* NSObject+KVOCrash.m in Sources */,
+				5DC750F521E213ED0012B16C /* PYACrashType.m in Sources */,
+				5DC750EE21E213ED0012B16C /* NSObject+MethodSwizzling.m in Sources */,
+				5DC750FA21E213ED0012B16C /* NSTimer+Weak.m in Sources */,
+				5DC7510021E213ED0012B16C /* NSObject+UnregnizedSelector.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +307,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DC750E021E213ED0012B16C /* PYAegisTests.m in Sources */,
+				5DC7510921E213ED0012B16C /* KVOTests.m in Sources */,
+				5DC750F721E213ED0012B16C /* MethodSwizzlingTests.m in Sources */,
+				5DC7510321E213ED0012B16C /* UnrecognizedSelectTests.m in Sources */,
+				5DC750FD21E213ED0012B16C /* NSTimerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +495,7 @@
 		};
 		5DC750E921E213ED0012B16C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D20D1F10519D43B0C3D2884 /* Pods-PYAegisTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7KW8997Y5M;
@@ -402,6 +513,7 @@
 		};
 		5DC750EA21E213ED0012B16C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A045FDA387567CFE15D2DC64 /* Pods-PYAegisTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7KW8997Y5M;
