@@ -24,6 +24,15 @@
 		5DC7510621E213ED0012B16C /* NSObject+KVOCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7510421E213ED0012B16C /* NSObject+KVOCrash.m */; };
 		5DC7510721E213ED0012B16C /* NSObject+KVOCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7510521E213ED0012B16C /* NSObject+KVOCrash.h */; };
 		5DC7510921E213ED0012B16C /* KVOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7510821E213ED0012B16C /* KVOTests.m */; };
+		5DC7510B21E213ED0012B16C /* NSNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7510A21E213ED0012B16C /* NSNotificationTests.m */; };
+		5DC7510E21E213ED0012B16C /* NSObject+NSNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7510C21E213ED0012B16C /* NSObject+NSNotification.h */; };
+		5DC7510F21E213ED0012B16C /* NSObject+NSNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7510D21E213ED0012B16C /* NSObject+NSNotification.m */; };
+		5DC7511421E213ED0012B16C /* NSString+PYAegis.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7511021E213ED0012B16C /* NSString+PYAegis.m */; };
+		5DC7511521E213ED0012B16C /* NSMutableString+PYAegis.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7511121E213ED0012B16C /* NSMutableString+PYAegis.h */; };
+		5DC7511621E213ED0012B16C /* NSString+PYAegis.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7511221E213ED0012B16C /* NSString+PYAegis.h */; };
+		5DC7511721E213ED0012B16C /* NSMutableString+PYAegis.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7511321E213ED0012B16C /* NSMutableString+PYAegis.m */; };
+		5DC7511A21E213ED0012B16C /* NSStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7511821E213ED0012B16C /* NSStringTests.m */; };
+		5DC7511B21E213ED0012B16C /* NSMutableStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7511921E213ED0012B16C /* NSMutableStringTests.m */; };
 		BF2E68923FEBA7D64A9ED0E7 /* libPods-PYAegisTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0777F878E140A2543EE9C76C /* libPods-PYAegisTests.a */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +69,15 @@
 		5DC7510421E213ED0012B16C /* NSObject+KVOCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVOCrash.m"; sourceTree = "<group>"; };
 		5DC7510521E213ED0012B16C /* NSObject+KVOCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVOCrash.h"; sourceTree = "<group>"; };
 		5DC7510821E213ED0012B16C /* KVOTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOTests.m; sourceTree = "<group>"; };
+		5DC7510A21E213ED0012B16C /* NSNotificationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNotificationTests.m; sourceTree = "<group>"; };
+		5DC7510C21E213ED0012B16C /* NSObject+NSNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NSNotification.h"; sourceTree = "<group>"; };
+		5DC7510D21E213ED0012B16C /* NSObject+NSNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NSNotification.m"; sourceTree = "<group>"; };
+		5DC7511021E213ED0012B16C /* NSString+PYAegis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PYAegis.m"; sourceTree = "<group>"; };
+		5DC7511121E213ED0012B16C /* NSMutableString+PYAegis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+PYAegis.h"; sourceTree = "<group>"; };
+		5DC7511221E213ED0012B16C /* NSString+PYAegis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PYAegis.h"; sourceTree = "<group>"; };
+		5DC7511321E213ED0012B16C /* NSMutableString+PYAegis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+PYAegis.m"; sourceTree = "<group>"; };
+		5DC7511821E213ED0012B16C /* NSStringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringTests.m; sourceTree = "<group>"; };
+		5DC7511921E213ED0012B16C /* NSMutableStringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableStringTests.m; sourceTree = "<group>"; };
 		A045FDA387567CFE15D2DC64 /* Pods-PYAegisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYAegisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PYAegisTests/Pods-PYAegisTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,12 +134,18 @@
 			isa = PBXGroup;
 			children = (
 				5DC750D521E213ED0012B16C /* Info.plist */,
+				5DC7511121E213ED0012B16C /* NSMutableString+PYAegis.h */,
+				5DC7511321E213ED0012B16C /* NSMutableString+PYAegis.m */,
 				5DC7510521E213ED0012B16C /* NSObject+KVOCrash.h */,
 				5DC7510421E213ED0012B16C /* NSObject+KVOCrash.m */,
 				5DC750EB21E213ED0012B16C /* NSObject+MethodSwizzling.h */,
 				5DC750EC21E213ED0012B16C /* NSObject+MethodSwizzling.m */,
+				5DC7510C21E213ED0012B16C /* NSObject+NSNotification.h */,
+				5DC7510D21E213ED0012B16C /* NSObject+NSNotification.m */,
 				5DC750FF21E213ED0012B16C /* NSObject+UnregnizedSelector.h */,
 				5DC750FE21E213ED0012B16C /* NSObject+UnregnizedSelector.m */,
+				5DC7511221E213ED0012B16C /* NSString+PYAegis.h */,
+				5DC7511021E213ED0012B16C /* NSString+PYAegis.m */,
 				5DC750F921E213ED0012B16C /* NSTimer+Weak.h */,
 				5DC750F821E213ED0012B16C /* NSTimer+Weak.m */,
 				5DC750D421E213ED0012B16C /* PYAegis.h */,
@@ -136,6 +160,9 @@
 				5DC750E121E213ED0012B16C /* Info.plist */,
 				5DC7510821E213ED0012B16C /* KVOTests.m */,
 				5DC750F621E213ED0012B16C /* MethodSwizzlingTests.m */,
+				5DC7511921E213ED0012B16C /* NSMutableStringTests.m */,
+				5DC7510A21E213ED0012B16C /* NSNotificationTests.m */,
+				5DC7511821E213ED0012B16C /* NSStringTests.m */,
 				5DC750FC21E213ED0012B16C /* NSTimerTests.m */,
 				5DC7510221E213ED0012B16C /* UnrecognizedSelectTests.m */,
 			);
@@ -169,11 +196,14 @@
 			files = (
 				5DC750F121E213ED0012B16C /* PYADefine.h in Headers */,
 				5DC750E221E213ED0012B16C /* PYAegis.h in Headers */,
+				5DC7510E21E213ED0012B16C /* NSObject+NSNotification.h in Headers */,
 				5DC750ED21E213ED0012B16C /* NSObject+MethodSwizzling.h in Headers */,
 				5DC750FB21E213ED0012B16C /* NSTimer+Weak.h in Headers */,
 				5DC7510121E213ED0012B16C /* NSObject+UnregnizedSelector.h in Headers */,
+				5DC7511521E213ED0012B16C /* NSMutableString+PYAegis.h in Headers */,
 				5DC750F421E213ED0012B16C /* PYACrashType.h in Headers */,
 				5DC7510721E213ED0012B16C /* NSObject+KVOCrash.h in Headers */,
+				5DC7511621E213ED0012B16C /* NSString+PYAegis.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +328,9 @@
 				5DC7510621E213ED0012B16C /* NSObject+KVOCrash.m in Sources */,
 				5DC750F521E213ED0012B16C /* PYACrashType.m in Sources */,
 				5DC750EE21E213ED0012B16C /* NSObject+MethodSwizzling.m in Sources */,
+				5DC7511721E213ED0012B16C /* NSMutableString+PYAegis.m in Sources */,
+				5DC7511421E213ED0012B16C /* NSString+PYAegis.m in Sources */,
+				5DC7510F21E213ED0012B16C /* NSObject+NSNotification.m in Sources */,
 				5DC750FA21E213ED0012B16C /* NSTimer+Weak.m in Sources */,
 				5DC7510021E213ED0012B16C /* NSObject+UnregnizedSelector.m in Sources */,
 			);
@@ -308,6 +341,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DC7510921E213ED0012B16C /* KVOTests.m in Sources */,
+				5DC7511A21E213ED0012B16C /* NSStringTests.m in Sources */,
+				5DC7511B21E213ED0012B16C /* NSMutableStringTests.m in Sources */,
+				5DC7510B21E213ED0012B16C /* NSNotificationTests.m in Sources */,
 				5DC750F721E213ED0012B16C /* MethodSwizzlingTests.m in Sources */,
 				5DC7510321E213ED0012B16C /* UnrecognizedSelectTests.m in Sources */,
 				5DC750FD21E213ED0012B16C /* NSTimerTests.m in Sources */,
