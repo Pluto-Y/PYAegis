@@ -33,6 +33,27 @@
 		5DC7511721E213ED0012B16C /* NSMutableString+PYAegis.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7511321E213ED0012B16C /* NSMutableString+PYAegis.m */; };
 		5DC7511A21E213ED0012B16C /* NSStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7511821E213ED0012B16C /* NSStringTests.m */; };
 		5DC7511B21E213ED0012B16C /* NSMutableStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7511921E213ED0012B16C /* NSMutableStringTests.m */; };
+		5DC7512B21E213ED0012B16C /* NSSet+PYAegis.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7511D21E213ED0012B16C /* NSSet+PYAegis.h */; };
+		5DC7512C21E213ED0012B16C /* NSDictionary+PYAegis.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7511E21E213ED0012B16C /* NSDictionary+PYAegis.m */; };
+		5DC7512D21E213ED0012B16C /* NSMutableArray+PYAegis.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7511F21E213ED0012B16C /* NSMutableArray+PYAegis.m */; };
+		5DC7512E21E213ED0012B16C /* NSMutableSet+PYAegis.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7512021E213ED0012B16C /* NSMutableSet+PYAegis.m */; };
+		5DC7512F21E213ED0012B16C /* NSArray+PYAegis.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7512121E213ED0012B16C /* NSArray+PYAegis.h */; };
+		5DC7513021E213ED0012B16C /* NSCountedSet+PYAegis.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7512221E213ED0012B16C /* NSCountedSet+PYAegis.h */; };
+		5DC7513121E213ED0012B16C /* NSMutableDictionary+PYAegis.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7512321E213ED0012B16C /* NSMutableDictionary+PYAegis.h */; };
+		5DC7513221E213ED0012B16C /* NSMutableSet+PYAegis.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7512421E213ED0012B16C /* NSMutableSet+PYAegis.h */; };
+		5DC7513321E213ED0012B16C /* NSMutableArray+PYAegis.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7512521E213ED0012B16C /* NSMutableArray+PYAegis.h */; };
+		5DC7513421E213ED0012B16C /* NSDictionary+PYAegis.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7512621E213ED0012B16C /* NSDictionary+PYAegis.h */; };
+		5DC7513521E213ED0012B16C /* NSSet+PYAegis.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7512721E213ED0012B16C /* NSSet+PYAegis.m */; };
+		5DC7513621E213ED0012B16C /* NSCountedSet+PYAegis.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7512821E213ED0012B16C /* NSCountedSet+PYAegis.m */; };
+		5DC7513721E213ED0012B16C /* NSArray+PYAegis.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7512921E213ED0012B16C /* NSArray+PYAegis.m */; };
+		5DC7513821E213ED0012B16C /* NSMutableDictionary+PYAegis.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7512A21E213ED0012B16C /* NSMutableDictionary+PYAegis.m */; };
+		5DC7514021E213ED0012B16C /* NSMutableDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7513921E213ED0012B16C /* NSMutableDictionaryTests.m */; };
+		5DC7514121E213ED0012B16C /* NSDictionaryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7513A21E213ED0012B16C /* NSDictionaryTest.m */; };
+		5DC7514221E213ED0012B16C /* NSMutableArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7513B21E213ED0012B16C /* NSMutableArrayTests.m */; };
+		5DC7514321E213ED0012B16C /* NSArrayTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7513C21E213ED0012B16C /* NSArrayTests.mm */; };
+		5DC7514421E213ED0012B16C /* NSMutableSetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7513D21E213ED0012B16C /* NSMutableSetTests.m */; };
+		5DC7514521E213ED0012B16C /* NSCountedSetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7513E21E213ED0012B16C /* NSCountedSetTests.m */; };
+		5DC7514621E213ED0012B16C /* NSSetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC7513F21E213ED0012B16C /* NSSetTests.m */; };
 		BF2E68923FEBA7D64A9ED0E7 /* libPods-PYAegisTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0777F878E140A2543EE9C76C /* libPods-PYAegisTests.a */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +99,27 @@
 		5DC7511321E213ED0012B16C /* NSMutableString+PYAegis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+PYAegis.m"; sourceTree = "<group>"; };
 		5DC7511821E213ED0012B16C /* NSStringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringTests.m; sourceTree = "<group>"; };
 		5DC7511921E213ED0012B16C /* NSMutableStringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableStringTests.m; sourceTree = "<group>"; };
+		5DC7511D21E213ED0012B16C /* NSSet+PYAegis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+PYAegis.h"; sourceTree = "<group>"; };
+		5DC7511E21E213ED0012B16C /* NSDictionary+PYAegis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+PYAegis.m"; sourceTree = "<group>"; };
+		5DC7511F21E213ED0012B16C /* NSMutableArray+PYAegis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+PYAegis.m"; sourceTree = "<group>"; };
+		5DC7512021E213ED0012B16C /* NSMutableSet+PYAegis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableSet+PYAegis.m"; sourceTree = "<group>"; };
+		5DC7512121E213ED0012B16C /* NSArray+PYAegis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PYAegis.h"; sourceTree = "<group>"; };
+		5DC7512221E213ED0012B16C /* NSCountedSet+PYAegis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCountedSet+PYAegis.h"; sourceTree = "<group>"; };
+		5DC7512321E213ED0012B16C /* NSMutableDictionary+PYAegis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+PYAegis.h"; sourceTree = "<group>"; };
+		5DC7512421E213ED0012B16C /* NSMutableSet+PYAegis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableSet+PYAegis.h"; sourceTree = "<group>"; };
+		5DC7512521E213ED0012B16C /* NSMutableArray+PYAegis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+PYAegis.h"; sourceTree = "<group>"; };
+		5DC7512621E213ED0012B16C /* NSDictionary+PYAegis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+PYAegis.h"; sourceTree = "<group>"; };
+		5DC7512721E213ED0012B16C /* NSSet+PYAegis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+PYAegis.m"; sourceTree = "<group>"; };
+		5DC7512821E213ED0012B16C /* NSCountedSet+PYAegis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCountedSet+PYAegis.m"; sourceTree = "<group>"; };
+		5DC7512921E213ED0012B16C /* NSArray+PYAegis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PYAegis.m"; sourceTree = "<group>"; };
+		5DC7512A21E213ED0012B16C /* NSMutableDictionary+PYAegis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+PYAegis.m"; sourceTree = "<group>"; };
+		5DC7513921E213ED0012B16C /* NSMutableDictionaryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableDictionaryTests.m; sourceTree = "<group>"; };
+		5DC7513A21E213ED0012B16C /* NSDictionaryTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryTest.m; sourceTree = "<group>"; };
+		5DC7513B21E213ED0012B16C /* NSMutableArrayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableArrayTests.m; sourceTree = "<group>"; };
+		5DC7513C21E213ED0012B16C /* NSArrayTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NSArrayTests.mm; sourceTree = "<group>"; };
+		5DC7513D21E213ED0012B16C /* NSMutableSetTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableSetTests.m; sourceTree = "<group>"; };
+		5DC7513E21E213ED0012B16C /* NSCountedSetTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCountedSetTests.m; sourceTree = "<group>"; };
+		5DC7513F21E213ED0012B16C /* NSSetTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSetTests.m; sourceTree = "<group>"; };
 		A045FDA387567CFE15D2DC64 /* Pods-PYAegisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYAegisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PYAegisTests/Pods-PYAegisTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +175,7 @@
 		5DC750D321E213ED0012B16C /* PYAegis */ = {
 			isa = PBXGroup;
 			children = (
+				5DC7511C21E213ED0012B16C /* Container */,
 				5DC750D521E213ED0012B16C /* Info.plist */,
 				5DC7511121E213ED0012B16C /* NSMutableString+PYAegis.h */,
 				5DC7511321E213ED0012B16C /* NSMutableString+PYAegis.m */,
@@ -160,8 +203,15 @@
 				5DC750E121E213ED0012B16C /* Info.plist */,
 				5DC7510821E213ED0012B16C /* KVOTests.m */,
 				5DC750F621E213ED0012B16C /* MethodSwizzlingTests.m */,
+				5DC7513C21E213ED0012B16C /* NSArrayTests.mm */,
+				5DC7513E21E213ED0012B16C /* NSCountedSetTests.m */,
+				5DC7513A21E213ED0012B16C /* NSDictionaryTest.m */,
+				5DC7513B21E213ED0012B16C /* NSMutableArrayTests.m */,
+				5DC7513921E213ED0012B16C /* NSMutableDictionaryTests.m */,
+				5DC7513D21E213ED0012B16C /* NSMutableSetTests.m */,
 				5DC7511921E213ED0012B16C /* NSMutableStringTests.m */,
 				5DC7510A21E213ED0012B16C /* NSNotificationTests.m */,
+				5DC7513F21E213ED0012B16C /* NSSetTests.m */,
 				5DC7511821E213ED0012B16C /* NSStringTests.m */,
 				5DC750FC21E213ED0012B16C /* NSTimerTests.m */,
 				5DC7510221E213ED0012B16C /* UnrecognizedSelectTests.m */,
@@ -177,6 +227,27 @@
 				5DC750F021E213ED0012B16C /* PYADefine.h */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		5DC7511C21E213ED0012B16C /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				5DC7512121E213ED0012B16C /* NSArray+PYAegis.h */,
+				5DC7512921E213ED0012B16C /* NSArray+PYAegis.m */,
+				5DC7512221E213ED0012B16C /* NSCountedSet+PYAegis.h */,
+				5DC7512821E213ED0012B16C /* NSCountedSet+PYAegis.m */,
+				5DC7512621E213ED0012B16C /* NSDictionary+PYAegis.h */,
+				5DC7511E21E213ED0012B16C /* NSDictionary+PYAegis.m */,
+				5DC7512521E213ED0012B16C /* NSMutableArray+PYAegis.h */,
+				5DC7511F21E213ED0012B16C /* NSMutableArray+PYAegis.m */,
+				5DC7512321E213ED0012B16C /* NSMutableDictionary+PYAegis.h */,
+				5DC7512A21E213ED0012B16C /* NSMutableDictionary+PYAegis.m */,
+				5DC7512421E213ED0012B16C /* NSMutableSet+PYAegis.h */,
+				5DC7512021E213ED0012B16C /* NSMutableSet+PYAegis.m */,
+				5DC7511D21E213ED0012B16C /* NSSet+PYAegis.h */,
+				5DC7512721E213ED0012B16C /* NSSet+PYAegis.m */,
+			);
+			path = Container;
 			sourceTree = "<group>";
 		};
 		B8FE787AD476D3167861FD45 /* Frameworks */ = {
@@ -196,11 +267,18 @@
 			files = (
 				5DC750F121E213ED0012B16C /* PYADefine.h in Headers */,
 				5DC750E221E213ED0012B16C /* PYAegis.h in Headers */,
+				5DC7513221E213ED0012B16C /* NSMutableSet+PYAegis.h in Headers */,
+				5DC7512B21E213ED0012B16C /* NSSet+PYAegis.h in Headers */,
+				5DC7513121E213ED0012B16C /* NSMutableDictionary+PYAegis.h in Headers */,
+				5DC7513321E213ED0012B16C /* NSMutableArray+PYAegis.h in Headers */,
+				5DC7513021E213ED0012B16C /* NSCountedSet+PYAegis.h in Headers */,
 				5DC7510E21E213ED0012B16C /* NSObject+NSNotification.h in Headers */,
+				5DC7512F21E213ED0012B16C /* NSArray+PYAegis.h in Headers */,
 				5DC750ED21E213ED0012B16C /* NSObject+MethodSwizzling.h in Headers */,
 				5DC750FB21E213ED0012B16C /* NSTimer+Weak.h in Headers */,
 				5DC7510121E213ED0012B16C /* NSObject+UnregnizedSelector.h in Headers */,
 				5DC7511521E213ED0012B16C /* NSMutableString+PYAegis.h in Headers */,
+				5DC7513421E213ED0012B16C /* NSDictionary+PYAegis.h in Headers */,
 				5DC750F421E213ED0012B16C /* PYACrashType.h in Headers */,
 				5DC7510721E213ED0012B16C /* NSObject+KVOCrash.h in Headers */,
 				5DC7511621E213ED0012B16C /* NSString+PYAegis.h in Headers */,
@@ -325,14 +403,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DC7512D21E213ED0012B16C /* NSMutableArray+PYAegis.m in Sources */,
 				5DC7510621E213ED0012B16C /* NSObject+KVOCrash.m in Sources */,
 				5DC750F521E213ED0012B16C /* PYACrashType.m in Sources */,
 				5DC750EE21E213ED0012B16C /* NSObject+MethodSwizzling.m in Sources */,
+				5DC7513521E213ED0012B16C /* NSSet+PYAegis.m in Sources */,
 				5DC7511721E213ED0012B16C /* NSMutableString+PYAegis.m in Sources */,
+				5DC7513621E213ED0012B16C /* NSCountedSet+PYAegis.m in Sources */,
+				5DC7512C21E213ED0012B16C /* NSDictionary+PYAegis.m in Sources */,
 				5DC7511421E213ED0012B16C /* NSString+PYAegis.m in Sources */,
+				5DC7513721E213ED0012B16C /* NSArray+PYAegis.m in Sources */,
 				5DC7510F21E213ED0012B16C /* NSObject+NSNotification.m in Sources */,
+				5DC7512E21E213ED0012B16C /* NSMutableSet+PYAegis.m in Sources */,
 				5DC750FA21E213ED0012B16C /* NSTimer+Weak.m in Sources */,
 				5DC7510021E213ED0012B16C /* NSObject+UnregnizedSelector.m in Sources */,
+				5DC7513821E213ED0012B16C /* NSMutableDictionary+PYAegis.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +425,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DC7514421E213ED0012B16C /* NSMutableSetTests.m in Sources */,
+				5DC7514621E213ED0012B16C /* NSSetTests.m in Sources */,
+				5DC7514521E213ED0012B16C /* NSCountedSetTests.m in Sources */,
 				5DC7510921E213ED0012B16C /* KVOTests.m in Sources */,
+				5DC7514021E213ED0012B16C /* NSMutableDictionaryTests.m in Sources */,
+				5DC7514121E213ED0012B16C /* NSDictionaryTest.m in Sources */,
 				5DC7511A21E213ED0012B16C /* NSStringTests.m in Sources */,
+				5DC7514321E213ED0012B16C /* NSArrayTests.mm in Sources */,
 				5DC7511B21E213ED0012B16C /* NSMutableStringTests.m in Sources */,
+				5DC7514221E213ED0012B16C /* NSMutableArrayTests.m in Sources */,
 				5DC7510B21E213ED0012B16C /* NSNotificationTests.m in Sources */,
 				5DC750F721E213ED0012B16C /* MethodSwizzlingTests.m in Sources */,
 				5DC7510321E213ED0012B16C /* UnrecognizedSelectTests.m in Sources */,
