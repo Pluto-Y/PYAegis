@@ -29,7 +29,7 @@ A daemon framework to protect:
 Use cocoapods or manual add PYAegis to your project. Done!
 
 ## What we protect?
-[Wiki](https://github.com/Pluto-Y/PYAegis/wiki)
+[Wiki](https://github.com/Pluto-Y/PYAegis/wiki/What-we-protect)
 
 ## License
 PYAegis is released under the Apache License 2.0 license. See [LICENSE](https://github.com/Pluto-Y/PYAegis/blob/master/LICENSE) for details.
